@@ -1,0 +1,74 @@
+c:\users\albert\documents\visual studio 2015\Projects\student_platofrm\student_platofrm\bin\Debug\student_platofrm.exe.config
+c:\users\albert\documents\visual studio 2015\Projects\student_platofrm\student_platofrm\bin\Debug\student_platofrm.exe
+c:\users\albert\documents\visual studio 2015\Projects\student_platofrm\student_platofrm\bin\Debug\student_platofrm.pdb
+c:\users\albert\documents\visual studio 2015\Projects\student_platofrm\student_platofrm\obj\Debug\student_platofrm.csprojResolveAssemblyReference.cache
+c:\users\albert\documents\visual studio 2015\Projects\student_platofrm\student_platofrm\obj\Debug\student_platofrm.Form1.resources
+c:\users\albert\documents\visual studio 2015\Projects\student_platofrm\student_platofrm\obj\Debug\student_platofrm.Properties.Resources.resources
+c:\users\albert\documents\visual studio 2015\Projects\student_platofrm\student_platofrm\obj\Debug\student_platofrm.csproj.GenerateResource.Cache
+c:\users\albert\documents\visual studio 2015\Projects\student_platofrm\student_platofrm\obj\Debug\student_platofrm.exe
+c:\users\albert\documents\visual studio 2015\Projects\student_platofrm\student_platofrm\obj\Debug\student_platofrm.pdb
+c:\users\albert\documents\visual studio 2015\Projects\student_platofrm\student_platofrm\bin\Debug\MySql.Data.dll
+c:\users\albert\documents\visual studio 2015\Projects\student_platofrm\student_platofrm\obj\Debug\student_platofrm.Form2.resources
+C:\Users\Albert\documents\visual studio 2015\Projects\student_platofrm\student_platofrm\obj\Debug\student_platofrm.Form3.resources
+C:\Users\Albert\documents\visual studio 2015\Projects\student_platofrm\student_platofrm\bin\Debug\System.IO.Compression.dll
+C:\Users\Albert\documents\visual studio 2015\Projects\student_platofrm\student_platofrm\bin\Debug\Interop.AcroPDFLib.dll
+C:\Users\Albert\documents\visual studio 2015\Projects\student_platofrm\student_platofrm\bin\Debug\AxInterop.AcroPDFLib.dll
+C:\Users\Albert\documents\visual studio 2015\Projects\student_platofrm\student_platofrm\obj\Debug\Interop.AcroPDFLib.dll
+C:\Users\Albert\documents\visual studio 2015\Projects\student_platofrm\student_platofrm\obj\Debug\AxInterop.AcroPDFLib.dll
+C:\Users\Albert\documents\visual studio 2015\Projects\student_platofrm\student_platofrm\obj\Debug\student_platofrm.csproj.ResolveComReference.cache
+C:\Users\Alberto\Desktop\student_platofrm_v_03\student_platofrm\bin\Debug\student_platofrm.exe.config
+C:\Users\Alberto\Desktop\student_platofrm_v_03\student_platofrm\obj\Debug\Interop.AcroPDFLib.dll
+C:\Users\Alberto\Desktop\student_platofrm_v_03\student_platofrm\obj\Debug\AxInterop.AcroPDFLib.dll
+C:\Users\Alberto\Desktop\student_platofrm_v_03\student_platofrm\obj\Debug\student_platofrm.csproj.ResolveComReference.cache
+C:\Users\Alberto\Desktop\student_platofrm_v_03\student_platofrm\obj\Debug\student_platofrm.exe
+C:\Users\Alberto\Desktop\student_platofrm_v_03\student_platofrm\obj\Debug\student_platofrm.pdb
+C:\Users\Alberto\Desktop\student_platofrm_v_03\student_platofrm\bin\Debug\student_platofrm.exe
+C:\Users\Alberto\Desktop\student_platofrm_v_03\student_platofrm\bin\Debug\student_platofrm.pdb
+C:\Users\Alberto\Desktop\student_platofrm_v_03\student_platofrm\bin\Debug\System.IO.Compression.dll
+C:\Users\Alberto\Desktop\student_platofrm_v_03\student_platofrm\bin\Debug\Interop.AcroPDFLib.dll
+C:\Users\Alberto\Desktop\student_platofrm_v_03\student_platofrm\bin\Debug\AxInterop.AcroPDFLib.dll
+C:\Users\Alberto\Desktop\student_platofrm_v_03\student_platofrm\obj\Debug\student_platofrm.csprojResolveAssemblyReference.cache
+C:\Users\Alberto\Desktop\student_platofrm_v_03\student_platofrm\obj\Debug\student_platofrm.Form1.resources
+C:\Users\Alberto\Desktop\student_platofrm_v_03\student_platofrm\obj\Debug\student_platofrm.Form2.resources
+C:\Users\Alberto\Desktop\student_platofrm_v_03\student_platofrm\obj\Debug\student_platofrm.Form3.resources
+C:\Users\Alberto\Desktop\student_platofrm_v_03\student_platofrm\obj\Debug\student_platofrm.Properties.Resources.resources
+C:\Users\Alberto\Desktop\student_platofrm_v_03\student_platofrm\obj\Debug\student_platofrm.csproj.GenerateResource.Cache
+C:\Users\Albert\Desktop\student_platofrm_v_04\student_platofrm\bin\Debug\student_platofrm.exe.config
+C:\Users\Albert\Desktop\student_platofrm_v_04\student_platofrm\obj\Debug\Interop.AcroPDFLib.dll
+C:\Users\Albert\Desktop\student_platofrm_v_04\student_platofrm\obj\Debug\AxInterop.AcroPDFLib.dll
+C:\Users\Albert\Desktop\student_platofrm_v_04\student_platofrm\obj\Debug\student_platofrm.csproj.ResolveComReference.cache
+C:\Users\Albert\Desktop\student_platofrm_v_04\student_platofrm\obj\Debug\student_platofrm.exe
+C:\Users\Albert\Desktop\student_platofrm_v_04\student_platofrm\obj\Debug\student_platofrm.pdb
+C:\Users\Albert\Desktop\student_platofrm_v_04\student_platofrm\bin\Debug\student_platofrm.exe
+C:\Users\Albert\Desktop\student_platofrm_v_04\student_platofrm\bin\Debug\student_platofrm.pdb
+C:\Users\Albert\Desktop\student_platofrm_v_04\student_platofrm\bin\Debug\MySql.Data.dll
+C:\Users\Albert\Desktop\student_platofrm_v_04\student_platofrm\bin\Debug\System.IO.Compression.dll
+C:\Users\Albert\Desktop\student_platofrm_v_04\student_platofrm\bin\Debug\Interop.AcroPDFLib.dll
+C:\Users\Albert\Desktop\student_platofrm_v_04\student_platofrm\bin\Debug\AxInterop.AcroPDFLib.dll
+C:\Users\Albert\Desktop\student_platofrm_v_04\student_platofrm\obj\Debug\student_platofrm.csprojResolveAssemblyReference.cache
+C:\Users\Albert\Desktop\student_platofrm_v_04\student_platofrm\obj\Debug\student_platofrm.Form1.resources
+C:\Users\Albert\Desktop\student_platofrm_v_04\student_platofrm\obj\Debug\student_platofrm.Form2.resources
+C:\Users\Albert\Desktop\student_platofrm_v_04\student_platofrm\obj\Debug\student_platofrm.Form3.resources
+C:\Users\Albert\Desktop\student_platofrm_v_04\student_platofrm\obj\Debug\student_platofrm.Properties.Resources.resources
+C:\Users\Albert\Desktop\student_platofrm_v_04\student_platofrm\obj\Debug\student_platofrm.csproj.GenerateResource.Cache
+C:\Users\Albert\Desktop\student_platofrm_v_04\student_platofrm\obj\Debug\student_platofrm.Teams_form.resources
+C:\Users\Albert\Desktop\student_platofrm_v_04\student_platofrm\obj\Debug\student_platofrm.admin.resources
+C:\Users\Alberto\Desktop\student_platofrm_v_05\student_platofrm\bin\Debug\student_platofrm.exe.config
+C:\Users\Alberto\Desktop\student_platofrm_v_05\student_platofrm\obj\Debug\student_platofrm.csproj.ResolveComReference.cache
+C:\Users\Alberto\Desktop\student_platofrm_v_05\student_platofrm\obj\Debug\student_platofrm.exe
+C:\Users\Alberto\Desktop\student_platofrm_v_05\student_platofrm\obj\Debug\student_platofrm.pdb
+C:\Users\Alberto\Desktop\student_platofrm_v_05\student_platofrm\bin\Debug\student_platofrm.exe
+C:\Users\Alberto\Desktop\student_platofrm_v_05\student_platofrm\bin\Debug\student_platofrm.pdb
+C:\Users\Alberto\Desktop\student_platofrm_v_05\student_platofrm\bin\Debug\System.IO.Compression.dll
+C:\Users\Alberto\Desktop\student_platofrm_v_05\student_platofrm\obj\Debug\student_platofrm.csprojResolveAssemblyReference.cache
+C:\Users\Alberto\Desktop\student_platofrm_v_05\student_platofrm\obj\Debug\student_platofrm.admin.resources
+C:\Users\Alberto\Desktop\student_platofrm_v_05\student_platofrm\obj\Debug\student_platofrm.Form1.resources
+C:\Users\Alberto\Desktop\student_platofrm_v_05\student_platofrm\obj\Debug\student_platofrm.Form2.resources
+C:\Users\Alberto\Desktop\student_platofrm_v_05\student_platofrm\obj\Debug\student_platofrm.Form3.resources
+C:\Users\Alberto\Desktop\student_platofrm_v_05\student_platofrm\obj\Debug\student_platofrm.Properties.Resources.resources
+C:\Users\Alberto\Desktop\student_platofrm_v_05\student_platofrm\obj\Debug\student_platofrm.Teams_form.resources
+C:\Users\Alberto\Desktop\student_platofrm_v_05\student_platofrm\obj\Debug\student_platofrm.csproj.GenerateResource.Cache
+C:\Users\Alberto\Desktop\student_platofrm_v_05\student_platofrm\bin\Debug\Interop.AcroPDFLib.dll
+C:\Users\Alberto\Desktop\student_platofrm_v_05\student_platofrm\bin\Debug\AxInterop.AcroPDFLib.dll
+C:\Users\Alberto\Desktop\student_platofrm_v_05\student_platofrm\obj\Debug\Interop.AcroPDFLib.dll
+C:\Users\Alberto\Desktop\student_platofrm_v_05\student_platofrm\obj\Debug\AxInterop.AcroPDFLib.dll
