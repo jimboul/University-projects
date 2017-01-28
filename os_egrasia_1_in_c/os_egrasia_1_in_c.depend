@@ -1,0 +1,9 @@
+# depslib dependency file v1.0
+1421449120 source:/home/jimbo/Desktop/Codeblocks projects/os_egrasia_1_in_c/main.c
+	<stdio.h>
+	<stdlib.h>
+	<pthread.h>
+	<string.h>
+	<sys/types.h>
+	<unistd.h>
+

@@ -1,0 +1,78 @@
+#include <stdio.h>
+#include <stdlib.h>
+#include <pthread.h>
+#include <string.h>
+#include <sys/types.h>
+#include <unistd.h>
+
+int number = 0; // global variable
+
+pthread_t t1,t2; // two threads have been declared
+
+pid_t childpid;
+
+//Functions
+
+int change_number(int x)
+{
+    number += x;
+    return number;
+}
+
+int start_1(int new_num)
+{
+    int rt1 = rand() % 10 + 5;
+    new_num += 5;
+    printf("This is the thread t1, its process id is %d, its value returned by fork is %d and the number is %d\n", getpid(), childpid, new_num);
+    sleep(rt1);
+    return new_num;
+}
+
+int start_2(int new_num)
+{
+    int rt2 = rand() % 10 + 5;
+    int k = rand() % 10 + 1;
+    k = -k;
+    new_num += k;
+    printf("This is the thread t2, its process id is %d, its value returned by fork is %d and the number is %d\n", getpid(), childpid, new_num);
+    sleep(rt2);
+    return new_num;
+}
+
+//Main Program
+
+int main()
+{
+    int y;
+    printf("Give a number to add\n");
+    scanf("%d", &y);
+    int new_num = change_number(y);
+
+    childpid = fork();
+    if (childpid >= 0) // Successful fork
+    {
+        if (childpid == 0) // Child process
+        {
+           pthread_create(&t1, 0,(void *)  start_1(new_num), 0); // Here it may be required to write pthread_create(&t1, 0, start_1(new_num), 0);
+           pthread_create(&t2, 0, (void *) start_2(new_num), 0); // It applies the same comment as above. Moreover, it may also be required to cast start_2 to void. Or even a combination of both lines of comments
+           pthread_join(t1, 0);
+           pthread_join(t2, 0);
+           printf("This is child process!\n");
+           printf("The process has been executed\n");
+           //printf("The id is %d\n", pthread_self());
+        }
+        else // Parent process
+        {
+            printf("This is the parent process!\n");
+            printf("The process has been executed\n");
+            //printf("The id is %d\n", pthread_self());
+        }
+        return 0;
+    }
+    else // Fork failed
+    {
+        printf("Fork failed...Please try again later!");
+        return 1;
+    }
+
+}
