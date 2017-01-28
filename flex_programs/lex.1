@@ -1,0 +1,11 @@
+%{
+int count=0;
+%}
+%%
+"good" {++count;}
+.
+%%
+main() {
+yylex();
+printf("%d\n",count);
+}
