@@ -1,0 +1,50 @@
+{
+  "project_info": {
+    "project_number": "246417315048",
+    "firebase_url": "https://android2-c26a1.firebaseio.com",
+    "project_id": "android2-c26a1",
+    "storage_bucket": "android2-c26a1.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:246417315048:android:1cee9ecc31bb668d",
+        "android_client_info": {
+          "package_name": "com.unipi.dimitris.android2"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "246417315048-bva7on62nncj4dl8a4lr158k1jbli3cl.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDTqDYl3ONu6gEI6QMwFhgNET9UgVD2SL4"
+        },
+        {
+          "current_key": "AIzaSyAXenKPzHb3yIz-mULXlrE-MFSMctos9Jg"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "246417315048-bva7on62nncj4dl8a4lr158k1jbli3cl.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

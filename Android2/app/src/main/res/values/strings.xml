@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Geofence</string>
+    <string-array name="my_data">
+        <item>Madagascar: Entrance: Feb 10, 2017 4:32:06 AM</item>
+        <item>UNIPI: Entrance: Feb 10, 2017 3:39:59 AM Exit :Feb 10, 2017 3:39:59 AM</item>
+        <item>profitisIlias: Entrance: Feb 10, 2017 3:39:21 AM</item>
+    </string-array>
+</resources>
