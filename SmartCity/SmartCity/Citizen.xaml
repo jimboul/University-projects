@@ -1,0 +1,57 @@
+﻿<Window x:Class="SmartCity.Citizen"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:SmartCity"
+        mc:Ignorable="d"
+        Title="Citizen" Height="295.3" Width="512.272" WindowStartupLocation="CenterScreen">
+    <Window.Resources>
+        <Style x:Key="MyButtonStyle" TargetType="Button">
+            <Setter Property="OverridesDefaultStyle" Value="True"/>
+            <Setter Property="Margin" Value="5"/>
+            <Setter Property="Template">
+                <Setter.Value>
+                    <ControlTemplate TargetType="Button">
+                        <Border Name="border" 
+                            BorderThickness="0"
+                            Padding="4,2" 
+                            BorderBrush="DarkGray" 
+                            CornerRadius="3" 
+                            Background="{TemplateBinding Background}">
+                            <ContentPresenter HorizontalAlignment="Center" VerticalAlignment="Center" />
+                        </Border>
+                        <ControlTemplate.Triggers>
+                            <Trigger Property="IsMouseOver" Value="True">
+                                <Setter TargetName="border" Property="BorderBrush" Value="Black" />
+                            </Trigger>
+                        </ControlTemplate.Triggers>
+                    </ControlTemplate>
+                </Setter.Value>
+            </Setter>
+        </Style>
+    </Window.Resources>
+    <Grid>
+        <Image x:Name="image1" HorizontalAlignment="Left" Height="100" Margin="106,84,0,0" VerticalAlignment="Top" Width="100" MouseLeftButtonDown="enter" Source="img/House-icon.png">
+            <Image.OpacityMask>
+                <ImageBrush ImageSource="img/House-icon.png"/>
+            </Image.OpacityMask>
+        </Image>
+        <Image x:Name="image2" HorizontalAlignment="Center" MouseLeftButtonDown="calendar" Height="100" Margin="307,84,97,0" VerticalAlignment="Top" Width="100" ToolTip="Enter your Smart Plan" Source="img/calendar.png">
+            <Image.OpacityMask>
+                <ImageBrush ImageSource="img/calendar.png"/>
+            </Image.OpacityMask>
+        </Image>
+        <Button x:Name="button2" Content="" Cursor="Hand" ToolTip="Click the Home button to enter your smart home or click the Calendar button to enter your smart plan." HorizontalAlignment="Left" Margin="461,10,0,0" VerticalAlignment="Top" Width="33" Height="32" BorderThickness="0" Grid.Column="1" Click="button2_Click">
+            <Button.Background>
+                <ImageBrush ImageSource="img/help.png"/>
+            </Button.Background>
+        </Button>
+        <Label x:Name="label" Content="Welcome Citizen!" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top" Width="148" Height="41" FontSize="16" FontFamily="Comic Sans MS"/>
+        <Button x:Name="back" Content="" Style="{StaticResource MyButtonStyle}" ToolTip="Go Back" HorizontalAlignment="Left" Margin="436,203,0,0" VerticalAlignment="Top" Width="37" Height="43" Click="back_Click">
+            <Button.Background>
+                <ImageBrush ImageSource="img/back.png"/>
+            </Button.Background>
+        </Button>
+    </Grid>
+</Window>

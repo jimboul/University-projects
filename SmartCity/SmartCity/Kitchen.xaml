@@ -1,0 +1,71 @@
+﻿<Window x:Class="SmartCity.Kitchen"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:SmartCity"
+        mc:Ignorable="d"
+        Title="Kitchen" Height="500" Width="700" MaxHeight="500" MaxWidth="700" WindowStartupLocation="CenterScreen">
+    <Window.Resources>
+        <Style x:Key="MyButtonStyle" TargetType="Button">
+            <Setter Property="OverridesDefaultStyle" Value="True"/>
+            <Setter Property="Margin" Value="5"/>
+            <Setter Property="Template">
+                <Setter.Value>
+                    <ControlTemplate TargetType="Button">
+                        <Border Name="border" 
+                            BorderThickness="0"
+                            Padding="4,2" 
+                            BorderBrush="DarkGray" 
+                            CornerRadius="3" 
+                            Background="{TemplateBinding Background}">
+                            <ContentPresenter HorizontalAlignment="Center" VerticalAlignment="Center" />
+                        </Border>
+                        <ControlTemplate.Triggers>
+                            <Trigger Property="IsMouseOver" Value="True">
+                                <Setter TargetName="border" Property="BorderBrush" Value="Black" />
+                            </Trigger>
+                        </ControlTemplate.Triggers>
+                    </ControlTemplate>
+                </Setter.Value>
+            </Setter>
+        </Style>
+    </Window.Resources>
+    <Grid>
+        <Grid.Background>
+            <ImageBrush ImageSource="img/kitchen.jpg"/>
+        </Grid.Background>
+        <Button x:Name="back" Content="" Style="{StaticResource MyButtonStyle}" ToolTip="Go Back" HorizontalAlignment="Left" Margin="649,420,0,0" VerticalAlignment="Top" Width="37" Height="43" Click="back_Click">
+            <Button.Background>
+                <ImageBrush ImageSource="img/back.png"/>
+            </Button.Background>
+        </Button>
+        <Button x:Name="machine" Content="" Style="{StaticResource MyButtonStyle}" HorizontalAlignment="Left" Margin="434,194,0,0" VerticalAlignment="Top" Width="55" Height="64" Click="machine_Click">
+            <Button.Background>
+                <ImageBrush ImageSource="img/machine.png"/>
+            </Button.Background>
+        </Button>
+        <Button x:Name="package" Style="{StaticResource MyButtonStyle}" ToolTip="Insert Fi" Content="" HorizontalAlignment="Left" Margin="658,240,0,0" VerticalAlignment="Top" Width="34" Height="35" Click="package_Click">
+            <Button.Background>
+                <ImageBrush ImageSource="img/bag.png"/>
+            </Button.Background>
+        </Button>
+        <Button x:Name="jug" Content="" Style="{StaticResource MyButtonStyle}" HorizontalAlignment="Left" Margin="252,204,0,0" VerticalAlignment="Top" Width="43" Height="48" Click="jug_Click">
+            <Button.Background>
+                <ImageBrush ImageSource="img/jug1.png"/>
+            </Button.Background>
+        </Button>
+        <MediaElement x:Name="player" LoadedBehavior="Manual" HorizontalAlignment="Left" Height="100" Margin="10,359,0,0" Source="C:\Users\Dimitris\Documents\Visual Studio 2015\Projects\SmartCity\SmartCity\img\csound.mp3" VerticalAlignment="Top" Width="100"/>
+        <Button x:Name="cup" Content="" Style="{StaticResource MyButtonStyle}" HorizontalAlignment="Left" Margin="635,270,-2,0" VerticalAlignment="Top" Width="59" Height="33" Click="cup_Click" Visibility="Hidden">
+            <Button.Background>
+                <ImageBrush ImageSource="img/cup.png"/>
+            </Button.Background>
+        </Button>
+        <MediaElement x:Name="coffeedrink" LoadedBehavior="Manual" HorizontalAlignment="Left" Height="100" Margin="10,254,0,0" VerticalAlignment="Top" Width="100" Source="C:\Users\Dimitris\Documents\Visual Studio 2015\Projects\SmartCity\SmartCity\img\csound.mp3"/>
+        <Button x:Name="button2" Content="" Cursor="Hand" ToolTip="Click the coffee bag on the right hand side on the screen to insert some coffee into your coffee machine. Do not forget that you have to have put the appropriate quantity of water into the machine. To put some water click the jug locating about at the center of the screen. To start the coffee machine just click the machine next the kitchen. Finally, click the cup to drink your coffee. Enjoy it!" HorizontalAlignment="Left" Margin="649,10,0,0" VerticalAlignment="Top" Width="33" Height="32" BorderThickness="0" Click="button2_Click">
+            <Button.Background>
+                <ImageBrush ImageSource="img/help.png"/>
+            </Button.Background>
+        </Button>
+    </Grid>
+</Window>

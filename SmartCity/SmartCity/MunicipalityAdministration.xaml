@@ -1,0 +1,48 @@
+﻿<Window x:Class="SmartCity.MunicipalityAdministration"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:SmartCity"
+        mc:Ignorable="d"
+        Title="MunicipalityAdministration" Height="880.058" Width="1711.748">
+    <Window.Resources>
+        <Style x:Key="MyButtonStyle" TargetType="Button">
+            <Setter Property="OverridesDefaultStyle" Value="True"/>
+            <Setter Property="Margin" Value="5"/>
+            <Setter Property="Template">
+                <Setter.Value>
+                    <ControlTemplate TargetType="Button">
+                        <Border Name="border" 
+                            BorderThickness="0"
+                            Padding="4,2" 
+                            BorderBrush="DarkGray" 
+                            CornerRadius="3" 
+                            Background="{TemplateBinding Background}">
+                            <ContentPresenter HorizontalAlignment="Center" VerticalAlignment="Center" />
+                        </Border>
+                        <ControlTemplate.Triggers>
+                            <Trigger Property="IsMouseOver" Value="True">
+                                <Setter TargetName="border" Property="BorderBrush" Value="Black" />
+                            </Trigger>
+                        </ControlTemplate.Triggers>
+                    </ControlTemplate>
+                </Setter.Value>
+            </Setter>
+        </Style>
+    </Window.Resources>
+    <Grid>
+        <WebBrowser x:Name="webbrowser1" HorizontalAlignment="Left" Height="685" Margin="30,128,0,0" VerticalAlignment="Top" Width="1655"/>
+        <Label x:Name="label" Content="Please choose a house to monitor below:" HorizontalAlignment="Left" Margin="46,52,0,0" VerticalAlignment="Top" Height="35" Width="307" FontSize="16"/>
+        <Button x:Name="back" Content="" Style="{StaticResource MyButtonStyle}" ToolTip="Go Back" HorizontalAlignment="Left" Margin="1498,36,0,0" VerticalAlignment="Top" Width="54" Height="51" Click="back_Click">
+            <Button.Background>
+                <ImageBrush ImageSource="img/back.png"/>
+            </Button.Background>
+        </Button>
+        <Button x:Name="button2" Content="" Cursor="Hand" ToolTip="Click the door to go inside your house." HorizontalAlignment="Left" Margin="1642,29,0,0" VerticalAlignment="Top" Width="35" Height="33" BorderThickness="0" Click="button2_Click">
+            <Button.Background>
+                <ImageBrush ImageSource="img/help.png"/>
+            </Button.Background>
+        </Button>
+    </Grid>
+</Window>
