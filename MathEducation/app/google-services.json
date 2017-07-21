@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "202185162444",
+    "firebase_url": "https://matheducation-fb1df.firebaseio.com",
+    "project_id": "matheducation-fb1df",
+    "storage_bucket": "matheducation-fb1df.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:202185162444:android:2d4fb9d69e18b342",
+        "android_client_info": {
+          "package_name": "com.unipi.alexnikas.matheducation"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "202185162444-ah7pjg9d81i9tbb7cks4kb1lerde6c5n.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.unipi.alexnikas.matheducation",
+            "certificate_hash": "34f7ff08e89e622ecd658e32b5d5845d34bb0448"
+          }
+        },
+        {
+          "client_id": "202185162444-5ahgb4eljokn00jqs6hlkbmrke8m2m2n.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCKgV7v50A5HNhRcRWwDIr2aApuuGxKST8"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "202185162444-5ahgb4eljokn00jqs6hlkbmrke8m2m2n.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
